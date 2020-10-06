@@ -1,0 +1,9 @@
+public class Main {
+
+    public static void main(String[] args) {
+        C myObj = new C();
+        myObj.valuesInit();
+        System.out.println("five : " + myObj.mertFive());
+        System.out.println("six : " + myObj.mertSix());
+    }
+}
